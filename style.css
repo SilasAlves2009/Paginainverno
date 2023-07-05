@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+}
+header {
+  background-color: #4b93bf;
+  color: white;
+}
+figure {
+  display: flex;
+  width: 26vw;
+  align-items: center;
+}
+.floco {
+  margin-top: 2vh;
+}
+nav {
+  display: flex;
+  width: 50vw;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 50vw;
+  font-size: 20px;
+}
+.primeiraSessaoDaMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #e4eef1;
+}
+p {
+  width: 35vw;
+  font-size: 20px;
+}
+.primeiraSessaoDaMain p {
+  color: #0f468c;
+  width: 34vw;
+  font-size: 20px;
+}
+.segundaSessaoDaMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #4b93bf;
+}
+h2 {
+  width: 32vw;
+  color: #e4eef1;
+}
+.terceiraSessaoDaMain figure {
+  display: flex;
+
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #e4eef1;
+}
+.terceiraSessaoDaMain img {
+  width: 22vw;
+  height: 44vh;
+}
+
+.ursorebelde {
+  position: relative;
+  top: 1.3vh;
+}
+footer {
+  display: flex;
+  background-color: #4b93bf;
+  justify-content: space-between;
+}
+div {
+  text-align: center;
+}
+footer nav {
+  width: 30vw;
+}
+.pinguim {
+  position: relative;
+  left: 15vw;
+}
